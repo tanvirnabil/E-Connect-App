@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        IMPORTANT: Android requires vendor IDs in DECIMAL here, not hex.
+        CP210x  : 0x10C4 = 4292
+        FTDI    : 0x0403 = 1027
+        CH340   : 0x1A86 = 6790
+    -->
+
+    <!-- Silicon Labs CP210x — most common chip in ECS serial cable -->
+    <usb-device vendor-id="4292" />
+
+    <!-- FTDI -->
+    <usb-device vendor-id="1027" />
+
+    <!-- CH340 / CH341 -->
+    <usb-device vendor-id="6790" />
+
+</resources>
